@@ -1,0 +1,238 @@
+/* Reset some default browser styles */
+.left-align {
+    float: left;
+}
+
+
+/* Clear the float to ensure content below the floated elements is not affected */
+.left-align::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+header {
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+nav {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for the dropdown */
+.dropdown {
+    position: relative;
+    float: right; /* Align to the right */
+}
+
+/* Style for the dropdown content */
+.dropdown .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the background color of the dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Formulas styles */
+.descrieriFormule {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Image styles */
+.right-aligned {
+    float: right;
+    margin: 20px 20px 20px 20px; /* Adjust margins as needed */
+}
+
+.textHeader{
+    margin: 5px;
+    line-height: 1.5;
+}
+
+
+/* Text beneath Image styles */
+.image-with-text {
+    display: flex;
+    align-items: flex-start; /* Align the text to the top of the container */
+}
+
+.image-text {
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+/*Entry Book */
+div {
+    display: block;
+}
+
+div {
+    display: block;
+}
+.vector-body {
+    font-size: 0.875em;
+    font-size: calc(1em * 0.875);
+    line-height: 1.6;
+}
+
+.vector-feature-zebra-design-disabled .mw-body, .vector-feature-zebra-design-disabled .parsoid-body {
+    direction: ltr;
+}
+
+.vector-feature-zebra-design-disabled body {
+    background-color: #f8f9fa;
+    color: #202122;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+
+
+
+.mw-content-ltr figure[typeof~='mw:File/Thumb'], .mw-content-ltr figure[typeof~='mw:File/Frame'] {
+    margin: 0.5em 0 1.3em 1.4em;
+    clear: right;
+    float: right;
+}
+
+figure[typeof~='mw:File/Thumb'], figure[typeof~='mw:File/Frame'] {
+    border: 1px solid #c8ccd1;
+    border-bottom: 0;
+    background-color: #f8f9fa;
+}
+
+figure[typeof~='mw:File/Thumb'], figure[typeof~='mw:File/Frame'] {
+    display: table;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0.5em 0 1.3em 1.4em;
+    clear: right;
+    float: right;
+    border-bottom: 2px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.vector-body {
+    font-size: 0.875em;
+    font-size: calc(1em * 0.875);
+    line-height: 1.6;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+
+
+
+element.style {
+    float: right;
+    clear: right;
+    width: 22em;
+    margin: 0 0 1em 1em;
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    padding: 0.2em;
+    border-spacing: 0.4em 0;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 88%;
+    background: white;
+}
+
+table {
+    font-size: 100%;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+.vector-body {
+    font-size: 0.875em;
+    font-size: calc(1em * 0.875);
+    line-height: 1.6;
+}
+html, body {
+    font-family: sans-serif;
+}
