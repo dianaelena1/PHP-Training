@@ -5,7 +5,6 @@ if (isset($_GET['varsta']) && $_GET['varsta'] == 18) {
     header('Location: http://www.emag.ro');
     exit;
 } else {
-    // afisaj
     echo "< 18 ani";
 }
 
