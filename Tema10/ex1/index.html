@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Sorting</title>
+</head>
+<body>
+    <h1>Sorted Employees</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Salariu</th>
+            <th>Varsta</th>
+        </tr>
+        <?php foreach ($sortedEmployees as $employee): ?>
+            <tr>
+                <td><?= $employee['id'] ?></td>
+                <td><?= $employee['nume'] ?></td>
+                <td><?= $employee['prenume'] ?></td>
+                <td><?= $employee['salariu'] ?></td>
+                <td><?= $employee['varsta'] ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+</body>
+</html>
