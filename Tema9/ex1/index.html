@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search and sort melodies</title>
+</head>
+<body>
+    <h2>Căutare si Ordonare Melodii</h2>
+    <form action="ex1.php" method="get">
+        <label for="criteriu_ordonare">Criteriu de Ordonare:</label>
+        <select name="criteriu_ordonare">
+            <option value="nume_crescator">Nume Crescător</option>
+            <option value="nume_descrescator">Nume Descrescător</option>
+            <option value="album_crescator">Album Crescător</option>
+            <option value="album_descrescator">Album Descrescător</option>
+        </select><br>
+
+        <label for="cuvant_cautare">Caută după titlu:</label>
+        <input type="text" name="cuvant_cautare"><br>
+
+        <input type="submit" value="Caută și Ordonează">
+    </form>
+</body>
+</html>

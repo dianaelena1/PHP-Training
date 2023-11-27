@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Filme</title>
+</head>
+<body>
+    <h2>CRUD Filme</h2>
+
+    <!-- Formular pentru inserare -->
+    <h3>Inserare Film Nou</h3>
+    <form action="ex2.php" method="post">
+        <!-- Adaugă aici câmpurile pentru inserare -->
+        <input type="submit" value="Inserare Film">
+    </form>
+
+    <!-- Formular pentru sortare -->
+    <h3>Sortare Filme</h3>
+    <form action="inserare_film.php" method="get">
+        <label for="criteriu_sortare">Criteriu de Sortare:</label>
+        <select name="criteriu_sortare">
+            <option value="titlu_crescator">Titlu Crescător</option>
+            <option value="titlu_descrescator">Titlu Descrescător</option>
+            <option value="an_crescator">An Crescător</option>
+            <option value="an_descrescator">An Descrescător</option>
+            <!-- Adaugă alte criterii de sortare aici -->
+        </select>
+        <input type="submit" value="Sortează Filme">
+    </form>
+
+    <!-- Lista de filme cu opțiunea de editare și ștergere -->
+    <h3>Listă Filme</h3>
+    <?php
+    include("ex2.php");
+    ?>
+
+</body>
+</html>
